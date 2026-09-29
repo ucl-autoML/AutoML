@@ -78,11 +78,10 @@ The code also imports `joblib`, so install it explicitly if it is not installed 
 conda create -n automl-python38 python=3.8.5
 conda activate automl-python38
 
-pip install -r SingleDataset/Codebase/requirements.txt
+pip install -r requirements.txt
 pip install joblib
 ```
 
-The same dependency file is currently present under `MultiDataset/Codebase/requirements.txt`.
 
 > The pinned dependencies are from an older Python ecosystem and may require an older Conda or pip environment. Installing on modern Python versions may fail because of deprecated package versions.
 
