@@ -40,7 +40,7 @@ class Bayesian_Optimization():
         # order as self._keys.
         self._bounds = np.array(
             [item[1] for item in sorted(pbounds.items(), key=lambda x: x[0])],
-            dtype=np.float
+            dtype=float
         )
         self.dim = len(pbounds)
 
